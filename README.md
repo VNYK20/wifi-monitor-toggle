@@ -19,6 +19,7 @@ A lightweight bash tool to toggle your Wi-Fi card between **Managed** and **Moni
 ## 📁 Project Structure
 
 wifi-monitor-toggle
+
 ├── toggle-wifi-mode.sh        # Main toggle script
 
 ├── toggle-wifi-mode.service   # Optional: systemd service file
