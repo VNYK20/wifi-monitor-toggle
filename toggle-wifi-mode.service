@@ -1,0 +1,14 @@
+[Unit]
+Description=Wi-Fi Monitor Mode Toggle
+After=network.target
+
+[Service]
+ExecStart=/home/dujs/YOUR_USERNAME/toggle-wifi-mode.sh
+Restart=always
+User=YOUR_USERNAME
+
+[Install]
+WantedBy=multi-user.target
+
+
+#Replace YOUR_USERNAME with your Linux username.
